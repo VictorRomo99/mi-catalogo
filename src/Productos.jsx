@@ -17,7 +17,7 @@ const productos = [
     id: 3,
     nombre: "Procesador Ryzen 5 5600X",
     precio: "$200",
-    imagen: "/img/ryzen5600x.jpg",
+    imagen: "/img/ryzen.jpg",
     enlace: "https://wa.me/1234567890",
   },
 ];
