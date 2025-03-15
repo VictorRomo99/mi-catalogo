@@ -1,11 +1,15 @@
-import Productos from "./Productos";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Productos from "./pages/Productos";
 
 function App() {
   return (
-    <div>
-      <h1>Catálogo de Productos</h1>
-      <Productos />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/productos" element={<Productos />} />
+      </Routes>
+    </Router>
   );
 }
 
