@@ -1,35 +1,68 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #000; /* Fondo negro */
+  color: white;
+}
+
+/* Contenedor principal */
 .home-container {
   text-align: center;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
-header {
-  background: #007bff;
-  color: white;
+/* Encabezado estilizado */
+.header {
+  background: black; /* Fondo rojo */
   padding: 20px;
   border-radius: 10px;
+  border: 2px solid white; /* Borde blanco */
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
 
-.secciones {
-  margin-top: 20px;
-}
-
-.categorias a {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  background: #28a745;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-footer {
-  margin-top: 30px;
-}
-
-.redes a {
-  margin: 10px;
-  color: #007bff;
+/* Título con fondo negro */
+.store-name {
+  font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
+  color: yellow; /* Texto amarillo */
+  background: black; /* Fondo negro */
+  padding: 10px 40px; /* Espaciado interno */
+  border-radius: 10px;
+  display: inline-block;
+  text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.8); /* Sombra blanca */
+  letter-spacing: 2px;
+}
+
+/* Contenedor de enlaces */
+.top-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Botones estilizados */
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  background: green; /* Botón blanco */
+  color: black;
+  border: 2px solid white;
+  box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+  border: 2px solid white;
+  transform: scale(1.1);
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.8);
 }

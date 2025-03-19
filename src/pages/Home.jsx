@@ -1,41 +1,35 @@
 import { Link } from "react-router-dom";
-import "./Home.css"; // Archivo CSS para mejorar el diseño
+import "./home.css"; // Asegúrate de actualizar los estilos en home.css
 
-const Home = () => {
+function Home() {
   return (
     <div className="home-container">
-      <header>
-        <h1>Bienvenido a Mi Catálogo</h1>
-        <p>Explora nuestros productos electrónicos al mejor precio.</p>
+      {/* Encabezado con fondo degradado y texto estilizado */}
+      <header className="header">
+        <h1 className="store-name">Roger PC Store</h1>
+        <div className="top-links">
+          <Link to="/productos#componentes-pc" className="btn">
+            Componentes de PC
+          </Link>
+          <Link to="/productos#computadoras" className="btn">
+            Computadoras
+          </Link>
+          <Link to="/productos#laptops" className="btn">
+            Laptops
+          </Link>
+          <Link to="/productos#celulares" className="btn">
+            Celulares
+          </Link>
+          <Link to="/productos#tv" className="btn">
+            TV
+          </Link>
+          <Link to="/productos#parlantes" className="btn">
+            Parlantes
+          </Link>
+        </div>
       </header>
-
-      <section className="secciones">
-        <h2>Nuestras Categorías</h2>
-        <div className="categorias">
-          <Link to="/productos#computadoras">💻 Computadoras</Link>
-          <Link to="/productos#accesorios">🎧 Accesorios</Link>
-          <Link to="/productos#laptops">💼 Laptops</Link>
-          <Link to="/productos#celulares">📱 Celulares</Link>
-          <Link to="/productos#parlantes">🔊 Parlantes</Link>
-        </div>
-      </section>
-
-      <footer>
-        <h3>Síguenos en nuestras redes</h3>
-        <div className="redes">
-          <a href="https://facebook.com" target="_blank">
-            Facebook
-          </a>
-          <a href="https://instagram.com" target="_blank">
-            Instagram
-          </a>
-          <a href="https://wa.me/123456789" target="_blank">
-            WhatsApp
-          </a>
-        </div>
-      </footer>
     </div>
   );
-};
+}
 
 export default Home;

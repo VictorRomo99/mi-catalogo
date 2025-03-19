@@ -1,0 +1,49 @@
+.footer {
+  background: linear-gradient(
+    to right,
+    #1c1c1c,
+    #292929
+  ); /* 🔹 Degradado elegante */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -2px 10px rgba(255, 255, 255, 0.1); /* Sombra sutil */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* 🔹 Colores de cada red social */
+.social-icons a:nth-child(1) {
+  color: #1877f2;
+} /* Facebook - Azul */
+.social-icons a:nth-child(2) {
+  color: #e4405f;
+} /* Instagram - Rosado */
+.social-icons a:nth-child(3) {
+  color: #ffffff;
+} /* TikTok - Blanco para resaltar */
+.social-icons a:nth-child(4) {
+  color: #25d366;
+} /* WhatsApp - Verde */
+
+/* 🎨 Efecto al pasar el mouse */
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
