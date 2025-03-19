@@ -21,7 +21,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faFacebook} />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/roger_pc7"
           target="_blank"
           rel="noopener noreferrer"
           style={{ background: "none" }}
@@ -29,7 +29,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a
-          href="https://www.tiktok.com/@roger_pc_official?lang=es"
+          href="https://www.tiktok.com/@roger_pc_official"
           target="_blank"
           rel="noopener noreferrer"
           style={{ background: "none" }}
@@ -37,7 +37,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faTiktok} />
         </a>
         <a
-          href="https://wa.me/934 032 635"
+          href="https://wa.me/934032635"
           target="_blank"
           rel="noopener noreferrer"
           style={{ background: "none" }}
